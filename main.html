@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- background -->
+    <div class="glow glow-top"></div>
+    <div class="glow glow-bottom"></div>
+    <div class="background" id="bg"></div>
+    <div id="dots"></div>
+
+    <!-- parent -->
+    <div class="parent">
+
+        <!-- heading -->
+        <div class="heading">
+            <p>Quiz Game</p>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+
+            <!-- timer -->
+            <div class="timer">
+                <div class="loader"></div>
+                <div class="timer-count">
+                    <p>5:00</p>
+                </div>
+            </div>
+
+            <!-- question-card -->
+            <div class="question-card">
+                <!-- question -->
+                <div class="question">
+                    <div class="question-name">
+                        <p>Q. 2+2=?</p>
+                    </div>
+                    <div class="question-count">
+                        <p>1/20</p>
+                    </div>
+                </div>
+
+                <!-- option-card -->
+                <div class="option-card">
+                    <div class="option-name">
+                        <p>(A). 5</p>
+                        <p>(B). 4</p>
+                        <p>(C). 8</p>
+                        <p>(D). 22</p>
+                    </div>
+                    <div class="option-button">
+                        <input type="checkbox" class="option-button-button">
+                        <input type="checkbox" class="option-button-button">
+                        <input type="checkbox" class="option-button-button">
+                        <input type="checkbox" class="option-button-button">
+                    </div>
+                </div>
+            </div>
+
+            <!-- next/submit-button -->
+            <div class="next-submit-button">
+                <button>Next</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

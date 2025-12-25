@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <div class="glow glow-top"></div>
+    <div class="glow glow-bottom"></div>
+
+    <div class="parent">
+        <div class="main">
+            <div class="heading">
+                <div class="title"><p>Quiz Result</p></div>
+                <div class="user-name"><p>Player: <span>Guest</span></p></div>
+            </div>
+
+            <div class="score">
+                <div class="score-item total">
+                    <p class="score-label">Total</p>
+                    <p class="score-value">0</p>
+                </div>
+                <div class="score-item right">
+                    <p class="score-label">Correct</p>
+                    <p class="score-value">0</p>
+                </div>
+                <div class="score-item wrong">
+                    <p class="score-label">Wrong</p>
+                    <p class="score-value">0</p>
+                </div>
+            </div>
+
+            <div class="question-main"></div>
+
+            <div class="buttons">
+                <button class="retry-btn">Retry</button>
+                <button class="home-btn">Home</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="result.js"></script>
+</body>
+</html>
